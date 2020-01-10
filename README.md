@@ -53,7 +53,7 @@
 修改配置文件：`sudo gedit ./etc/hadoop/core-site.xml`  
 推荐使用`sudo vi ./etc/hadoop/core-site.xml`（在`/usr/local/hadoop/`目录下）  
 `<configuration>`  
-`   <property>`  
+`<property>`  
 `<name>hadoop.tmp.dir</name>`  
 `<value>file:/usr/local/hadoop/tmp</value>`  
 `<description>Abase for other temporary directories.</description>`  
